@@ -213,7 +213,7 @@ public class Spelling implements Trie{
     }
 
     public static void main(String[] args) throws Exception {
-        Part4 spell = new Part4();
+        Spelling spell = new Spelling();
         List<List<String>> list = new ArrayList<List<String>>();
 
         list = spell.suggest("apple", 5);
